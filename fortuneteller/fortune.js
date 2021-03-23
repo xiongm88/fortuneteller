@@ -14,4 +14,9 @@ if (result != null) {
 	alert("What would you like to know?!");
 }
 
-// Henry's Video
+// "The client server model" client makes request, server responds to request. 
+// Front-end: 
+// HTML: holds structure and contents, CSS: how to style and arrange webpage, JavaScript: how webpage should behave and its interactions 
+// Back-end:
+// Retrieving data from database, works on functionality. Uses programming languages that serve requests(JavaScript, Java, Python, PHP, etc)
+// Both Front-end and Back-end will need knowledge of HTML, CSS, JavaScript and how they present webpages.
