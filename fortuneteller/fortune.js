@@ -2,22 +2,22 @@
 let teller = prompt('Get your fortune! What would you like to know?');
 
 // Results
-const result = ["Signs point to yes!", "Very likely", "Maybe", "Outcome not so good", "Please ask again later"]
+const result = ["Signs point to yes!", "Very likely", "Maybe", "Outcome not so good", "Please ask again later"];
 
 // Randomizer
 const random = Math.floor(Math.random() * result.length);
 
 // Results posted
 function fortune() {
-	if (teller != null) {
+	if (teller === "") { 
+		alert("What would you like to know?!");
+	} else if (teller != null) {
 		alert(result[random]);
-	} else { 
+	} else {
 		(teller === null) 
 		alert("What would you like to know?!");
 	}
-}
-
-fortune();
+};
 
 /*
 "The client server model" client makes request, server responds to request. 
