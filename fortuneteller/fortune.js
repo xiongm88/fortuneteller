@@ -10,7 +10,7 @@ const random = Math.floor(Math.random() * result.length);
 // Results posted
 function fortune() {
 	if (teller === "") { 
-		alert("What would you like to know?!");
+		alert("You ain't ask nothin'!");
 	} else if (teller != null) {
 		alert(result[random]);
 	} else {
