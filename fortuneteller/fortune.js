@@ -8,9 +8,10 @@ const result = ["Signs point to yes!", "Very likely", "Maybe", "Outcome not so g
 const random = Math.floor(Math.random() * result.length);
 
 // Results posted
-if (result != null) {
+if (fortune != null) {
 	alert(result[random]);
-} else {
+} else { 
+	(fortune === null) 
 	alert("What would you like to know?!");
 }
 
