@@ -1,5 +1,5 @@
 // Prompt to ask a question
-let fortune = prompt('Get your fortune! What would you like to know?');
+let teller = prompt('Get your fortune! What would you like to know?');
 
 // Results
 const result = ["Signs point to yes!", "Very likely", "Maybe", "Outcome not so good", "Please ask again later"]
@@ -8,12 +8,16 @@ const result = ["Signs point to yes!", "Very likely", "Maybe", "Outcome not so g
 const random = Math.floor(Math.random() * result.length);
 
 // Results posted
-if (fortune != null) {
-	alert(result[random]);
-} else { 
-	(fortune === null) 
-	alert("What would you like to know?!");
+function fortune() {
+	if (teller != null) {
+		alert(result[random]);
+	} else { 
+		(teller === null) 
+		alert("What would you like to know?!");
+	}
 }
+
+fortune();
 
 /*
 "The client server model" client makes request, server responds to request. 
