@@ -15,7 +15,7 @@ function fortune() {
 		alert(result[random]);
 	} else {
 		(teller === null) 
-		alert("What would you like to know?!");
+		alert("That's fine! Your future don't look too bright anyways!");
 	}
 };
 
